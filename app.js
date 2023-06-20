@@ -48,3 +48,21 @@ function logoutAction(ctx) {
   logout();
   ctx.page.redirect("/");
 }
+
+const menuButton = document.querySelector(".menu-button");
+const navigationContainer = document.querySelector(".header");
+const navLinks = document.querySelectorAll(".navbar-link");
+
+menuButton.addEventListener("click", () => {
+  if (navigationContainer.style.top === "-100%") {
+    navigationContainer.style.top = "2em";
+  } else {
+    navigationContainer.style.top = "-100%";
+  }
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      navigationContainer.style.top = "-100%";
+    });
+  });
+});
