@@ -7,6 +7,7 @@ Welcome to HAPPY BEES & HONEY! This platform offers a unique opportunity to enga
 
 ## 📷 Screenshots
 
+![Screenshot 0](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/1e248e7a-bab7-4225-a335-6918aacaf9d6)
 ![Screenshot 1](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/0171af0b-0ca6-478d-ab56-08ba7fb7e00d)
 ![Screenshot 2](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/25fa28ea-09c5-4b53-bd89-9c465020e19f)
 ![Screenshot 3](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/be1ad867-6666-4cfc-b07a-884f59b7428d)
