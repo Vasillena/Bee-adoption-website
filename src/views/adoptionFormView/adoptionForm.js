@@ -24,7 +24,7 @@ export const createTemplate = (onCreate) => html` <section class="adoption">
         <div class="form-elements">
           <label for="address"></label>
           <input
-            type="address"
+            type="text"
             id="address"
             name="address"
             placeholder="Address"
