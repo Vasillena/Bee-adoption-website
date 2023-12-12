@@ -1,10 +1,80 @@
-# Bee-adoption-website
-HAPPY BEES &amp; HONEY
+<div align="center">
+<h1 align="center">HAPPY BEES &amp; HONEY</h1>
+  🐝🌻🐝
+  <br/>
+Community awareness for bee extinction problem
 
-## 📖 Description
+## ⭐️  Introduction
 
 Welcome to HAPPY BEES & HONEY! This platform offers a unique opportunity to engage with bee conservation efforts by adopting beehives, monitoring their progress, exploring honey products, and more. The primary objective is to raise awareness about the critical issue of bee extinction and encourage individuals to take action by considering the adoption of a beehive.
 
+## 📜 Table of Contents
+[Getting started](#getting-started) •
+[Features](#features) •
+[Structure and Architecture](#structure-and-architecture) •
+[Screenshots](#screenshots)
+
+## 💡 Getting Started
+Clone the repository:
+```
+git clone https://github.com/Vasillena/Bee-adoption-website
+```
+Navigate to the server folder:
+```
+cd server
+```
+Run the following command to start the back-end server:
+```
+node server.js
+```
+Open new terminal and r un the following command to install all required packages and dependencies:
+```
+npm install
+```
+Run the following command to start the app in development mode:
+```
+npm run dev
+```
+Open http://localhost:3030 in your browser to view the application.
+
+## 🧸 Features
+
+**Key Features**
+
+Learn more about bees and the pressing issues of their extinction
+<br/>
+Adopt a beehive
+<br/>
+Track your beehive
+<br/>
+
+
+**User Access Levels**
+
+Guest User:
+
+Browse all static pages
+<br/>
+
+Registered User:
+
+Adopt (create) beehive
+<br/>
+Track, edit and delete your beehive
+<br/>
+
+**Demo Users**
+
+peter@abv.bg pass: 123456;
+<br/>
+george@abv.bg pass: 123456;
+
+## 🏛️ Structure and Architecture
+</div>
+
+
+<div align="center">
+  
 ## 📷 Screenshots
 
 -----Mobile Version-----
