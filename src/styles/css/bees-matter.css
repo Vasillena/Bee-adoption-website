@@ -1,46 +1,75 @@
-.title-section h1,
-.paragraphs-first-row,
-.paragraphs-second-row {
-  animation: sliderReveal 1s ease forwards;
+.title-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.title-section h1 {
-  position: absolute;
-  margin-top: 5.2em;
-  margin-left: 5.3em;
-  font-family: "Anton", sans-serif;
-  font-size: 4em;
-  letter-spacing: 0.1em;
-  z-index: 1;
+.hex-container {
+  perspective: 1000px;
 }
 
 .hex {
-  background: url(../../../src/styles/images/hex.png);
-  background-size: 90% auto;
+  background: url(../../../src/styles/images/hex.svg);
+  background-size: 80% auto;
   background-position: center;
   background-repeat: no-repeat;
   width: 24em;
   height: 24em;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.paragraph {
-  width: 18em;
+.hex:hover {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.hex-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin-left: 3em;
-  margin-top: 5.5em;
+}
+
+.paragraph p {
+  width: 70%;
+  text-align: center;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .paragraphs-first-row {
   display: flex;
-  margin-left: 2em;
-  margin-top: 2em;
-  opacity: 0;
-  animation-delay: 0.6s;
 }
 
 .paragraphs-second-row {
   display: flex;
-  margin-left: 14em;
-  opacity: 0;
-  animation-delay: 1s;
+  margin-left: 12em;
+}
+
+.bees-matter-image {
+  width: 20%;
+  margin: 0 auto;
 }

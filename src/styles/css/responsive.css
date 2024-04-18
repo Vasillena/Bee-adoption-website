@@ -3,6 +3,7 @@
 
   #site {
     max-width: 600px;
+    overflow-x: hidden;
   }
 
   .hello-user {
@@ -12,7 +13,6 @@
   .menu-button {
     display: block;
     border: none;
-    margin-right: 1.5em;
   }
 
   .fa-solid {
@@ -23,19 +23,26 @@
     margin-right: 0;
   }
 
+  header {
+    width: 100vw;
+    top: 0;
+  }
+
   .header {
     position: fixed;
-    top: -100%;
+    top: -100vh;
     height: 100vh;
     width: 100%;
     z-index: 100;
     opacity: 0.9;
     transition: top 0.3s ease;
+    background-color: black;
   }
 
   .header .navbar-list {
     display: flex;
     flex-direction: column;
+    margin-top: 8em;
     align-items: center;
     gap: 1.5em;
     padding: 1em 0;
@@ -59,15 +66,7 @@
 
   .title-section {
     display: flex;
-    text-align: center;
-    flex-wrap: nowrap;
-  }
-
-  .title-section h1 {
-    position: static;
-    margin: 1em 0 7em 0;
-    font-size: 4em;
-    width: 6em;
+    flex-direction: column;
   }
 
   .paragraphs-first-row {
@@ -88,118 +87,59 @@
 
   /* --------------------OUR HONEY-------------------- */
 
-  .product-container {
-    display: flex;
-    flex-direction: column;
-  }
-
   .honey-jar-img {
-    margin-top: 7em;
-    margin-right: 0;
+    width: 20em;
+    height: auto;
   }
 
-  .title {
-    position: static;
-    text-align: center;
-    margin-top: 6em;
-    font-size: 1.3em;
+  .cards-container .card .face {
+    width: 20rem;
+    height: 20rem;
   }
 
-  .product-section {
-    display: flex;
-    flex-direction: column;
-    margin-top: 6em;
-    gap: 5em;
-    order: 1;
-  }
-
-  .product {
-    margin-bottom: 2em;
-  }
-
-  .honey-details {
-    width: 30em;
+  .cards-container .card .face.face2 {
+    transform: translateY(-220px);
   }
 
   /* --------------------ADOPT BEEHIVE-------------------- */
 
-  .adopt-beehive-title {
-    position: static;
-    font-size: 1em;
-    margin-top: 10em;
-  }
-
   .adopt-beehive-text {
-    position: static;
-    width: 22em;
-    font-size: 1.5em;
-    margin: 20em auto 2em auto;
+    padding: 2em 2em 0 2em;
   }
 
-  .adopt-beehive-text p {
-    margin-bottom: 6em;
-  }
-
-  .cards-container {
-    width: auto;
-    margin-top: 10em;
-    margin-bottom: 10em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    scale: 1.1;
-  }
-
-  .cards-container .card .face.face1 {
-    background: #ac6c1e;
-    transform: translateY(0);
-  }
-
-  .cards-container .card .face.face1 .content {
-    opacity: 1;
-  }
-
-  .cards-container .card .face.face2 {
-    transform: translateY(0);
+  .desc {
+    background-color: black;
   }
 
   /* --------------------ADOPTION FORM-------------------- */
 
-  .adoption-form-title {
-    font-size: 1em;
+  .adoption {
+    margin: 5em auto;
+  }
+
+  .adoption-form-img {
+    margin-bottom: 0;
   }
 
   /* --------------------ABOUT US-------------------- */
 
-  .about-us-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 4em 4em 10em 4em;
-  }
-
-  .about-us-text {
-    margin-top: 5.5em;
-    margin-bottom: 5.5em;
-    width: 22em;
-  }
-
-  .about-us-text p {
-    margin-top: 2em;
-    text-indent: 1em;
+  .about-us-section p {
+    padding: 0 2em;
   }
 
   /* --------------------CONTACT-------------------- */
 
   .contact {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 16em 4em;
+    /* margin: 16em 4em; */
   }
 
-  .contact-section-form {
-    margin: 5em 0 0 0;
+  .contact-section {
+    width: 100%;
+    padding: 0 2em;
   }
 
   .sent-message {
@@ -210,20 +150,23 @@
   /* --------------------MY BEEHIVE-------------------- */
 
   .my-beehive-section {
-    margin: 10em 2em 4em 2em;
+    margin: 4em 0 2em 0;
   }
 
-  .my-beehive-title {
-    margin-bottom: 24em;
-    text-align: center;
+  .beehive-card {
+    margin: 0 auto;
   }
 
-  .beehive-card img {
-    width: 30em;
+  .beehive {
+    width: 300px;
   }
 
-  .label {
-    scale: 0.7;
+  .my-beehive {
+    margin-top: 10em;
+  }
+
+  .adoption-edit {
+    margin: 10em auto;
   }
 
   /* --------------------LOGIN-REGISTER-------------------- */

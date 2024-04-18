@@ -8,11 +8,11 @@ const loginRegisterTemplate = (onSubmit) => html`
     <div class="signup">
       <form id="signup" @submit=${onSubmit}>
         <input type="hidden" name="formType" value="register" />
-        <label for="chk" aria-hidden="true">Sign up</label>
+        <label for="chk" aria-hidden="true">Register</label>
         <input type="email" name="email" placeholder="Email" />
         <input type="password" name="password" placeholder="Password" />
         <input type="password" name="repass" placeholder="Repeat Password" />
-        <button class="button sign-up-button">Sign up</button>
+        <button class="button sign-up-button">Register</button>
       </form>
     </div>
 

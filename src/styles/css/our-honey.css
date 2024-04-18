@@ -1,74 +1,75 @@
-.product-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .honey-jar-img {
-  margin-top: 25em;
   width: 35em;
   height: auto;
-  margin-right: 4em;
-  opacity: 0;
-  animation: sliderReveal 1s ease forwards;
-  animation-delay: 0.6s;
+  margin: 2em auto 0 auto;
 }
 
-.title {
-  position: absolute;
-  top: 10em;
-  right: 2.5em;
-  font-family: "Anton", sans-serif;
-  font-size: 1.5em;
-  letter-spacing: 0.2em;
-  animation: sliderReveal 1s ease forwards;
-}
-
-.product-section {
+.cards-container {
   display: flex;
-  margin-top: 33em;
-  gap: 0.5em;
-  opacity: 0;
-  animation: sliderReveal 1s ease forwards;
-  animation-delay: 1s;
+  justify-content: center;
 }
 
-.product {
+.cards-container .card {
+  position: relative;
+}
+
+.cards-container .card .face {
+  width: 30rem;
+  height: 12rem;
+  transition: 0.5s;
+}
+
+.cards-container .card .face.face1 {
+  position: relative;
+  background: rgb(131, 95, 33);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: black;
-}
-
-.product img {
-  width: 16em;
-  height: auto;
-}
-
-.honey-details {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5em;
-  transition: transform 0.5s ease;
+  border-radius: 1rem;
   z-index: 1;
-  width: 60em;
-  height: auto;
-  background-color: black;
-  padding: 1em;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  border-radius: 1em;
-  font-size: 1.2em;
+  transform: translateY(100px);
+}
+
+.cards-container .card:hover .face.face1 {
+  background: #eba937;
+  transform: translateY(0);
+}
+
+.cards-container .card .face.face1 .content {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.cards-container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.cards-container .card .face.face1 .content h3 {
+  padding: 0 30px;
+  color: white;
   text-align: center;
+  font-size: 2.5rem;
 }
 
-.honey-details.show {
-  transform: translate(-50%, -50%) scale(1);
+.cards-container .card .face.face2 {
+  position: relative;
+  background: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
 }
 
-.content-img img {
-  width: 25em;
+.cards-container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.cards.container .card .face.face2 p {
+  margin: 0;
+  padding: 0;
+  color: white;
 }

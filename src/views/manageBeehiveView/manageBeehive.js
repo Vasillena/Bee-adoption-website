@@ -5,34 +5,18 @@ import { getUserData } from "../../data/util.js";
 export const manageBeehiveTemplate = (beehive, onDelete) => html` <section
   class="my-beehive"
 >
-  <style>
-    #site {
-      background: url(../../../src/styles/images/my-beehive.png);
-      background-size: 30% auto;
-      background-position: left 15em;
-      background-repeat: no-repeat;
-    }
-    @media (width <= 600px) {
-      #site {
-        background: url(../../../src/styles/images/my-beehive.png);
-        background-size: 50% auto;
-        background-position: left 15em;
-        background-repeat: no-repeat;
-      }
-    }
-  </style>
   <div class="my-beehive-section">
     <div class="my-beehive-title">
-      <h1>WELCOME TO OUR FAMILY</h1>
+      <h1>Welcome to our Family</h1>
     </div>
     <div class="my-beehives-table">
       <div class="single-beehive">
         <div class="beehive-card">
           <img
             class="beehive"
-            src="../../../src/styles/images/beehive.png"
+            src="../../../src/styles/images/beehive.svg"
             alt="Beehive"
-            width="680"
+            width="600"
           />
           <h3>${beehive.username}'s Beehive</h3>
           <p>${beehive.address}</p>

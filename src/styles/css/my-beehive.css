@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2em 0 2em 30em;
+  margin: 12em 0 2em 0;
+  text-align: center;
 }
 
 .my-beehive-title {
-  font-family: "Anton", sans-serif;
   font-size: 1.2em;
   letter-spacing: 0.1em;
   margin-bottom: 2em;
@@ -15,7 +15,8 @@
 
 .my-beehives-table {
   display: flex;
-  flex-direction: column;
+  gap: 6em;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   animation: sliderReveal 1s ease forwards;
@@ -31,7 +32,6 @@
 }
 
 .action-link {
-  font-family: "Forum", cursive;
   padding: 0.5em;
   border-bottom: 0.125rem solid #fff;
   font-size: 1em;

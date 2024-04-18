@@ -3,16 +3,13 @@ import { createBeehive } from "../../data/beehives.js";
 import { createSubmitHandler } from "../../data/util.js";
 
 export const createTemplate = (onCreate) => html` <section class="adoption">
-  <style>
-    #site {
-      background: url(../../../src/styles/images/adopt-form.png);
-      background-size: 30% auto;
-      background-position: right 30em;
-      background-repeat: no-repeat;
-    }
-  </style>
+  <img
+    class="adoption-form-img"
+    src="../../../src/styles/images/adopt-form.png"
+    alt="Bee"
+  />
   <div class="adoption-form-title">
-    <h1>CREATE YOUR BEEHIVE</h1>
+    <h1>Adopt a Beehive</h1>
   </div>
   <div class="adoption-form">
     <form id="adoption" @submit=${onCreate}>
@@ -89,6 +86,6 @@ export function createPage(ctx) {
       queenName,
       honeyLabel,
     });
-    ctx.page.redirect("/myBeehive");
+    ctx.page.redirect("/");
   }
 }

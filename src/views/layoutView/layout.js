@@ -5,7 +5,7 @@ export const layoutTemplate = (userData, content) => html` <header>
       <button class="menu-button">
         <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
       </button>
-      <a href="/" class="home-link">Happy Bees & Honey</a>
+      <a href="/#hero" class="home-link">Happy Bees & Honey</a>
       ${userData
         ? html`<p class="hello-user">Hello ${userData.email}</p>
             <a href="/logout" class="login-logout-link">Logout</a>`
@@ -15,25 +15,25 @@ export const layoutTemplate = (userData, content) => html` <header>
     <div class="header">
       <ul class="navbar-list">
         <li class="navbar-item">
-          <a href="/beesMatter" class="navbar-link">Bees matter</a>
+          <a href="#about-us" class="navbar-link">About us</a>
         </li>
         <li class="navbar-item">
-          <a href="/ourHoney" class="navbar-link">Our honey</a>
+          <a href="#bees-matter" class="navbar-link">Bees matter</a>
         </li>
         <li class="navbar-item">
-          <a href="/adoptBeehive" class="navbar-link">Adopt a beehive</a>
+          <a href="#adopt-beehive" class="navbar-link">Adopt a beehive</a>
         </li>
         <li class="navbar-item">
-          <a href="/aboutUs" class="navbar-link">About us</a>
-        </li>
-        <li class="navbar-item">
-          <a href="/contact" class="navbar-link">Contact</a>
+          <a href="#our-honey" class="navbar-link">Our honey</a>
         </li>
         ${userData
           ? html` <li class="navbar-item">
-              <a href="/myBeehive" class="navbar-link">My beehive</a>
+              <a href="#my-beehive" class="navbar-link">My beehive</a>
             </li>`
           : ""}
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link">Contact</a>
+        </li>
       </ul>
     </div>
   </header>

@@ -3,17 +3,9 @@ import { getById, updateBeehive } from "../../data/beehives.js";
 import { createSubmitHandler } from "../../data/util.js";
 
 const editTemplate = (beehive, onEdit) => html`
-  <section class="adoption">
-    <style>
-      #site {
-        background: url(../../../src/styles/images/adopt-form.png);
-        background-size: 30% auto;
-        background-position: right 30em;
-        background-repeat: no-repeat;
-      }
-    </style>
+  <section class="adoption-edit">
     <div class="adoption-form-title">
-      <h1>EDIT YOUR BEEHIVE</h1>
+      <h1>Edit your Beehive</h1>
     </div>
     <div class="adoption-form">
       <form id="adoption" @submit=${onEdit}>
