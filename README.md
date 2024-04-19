@@ -72,22 +72,21 @@ george@abv.bg pass: 123456;
 ## 🏛️ Structure and Architecture
 </div>
 
-- [.DS_Store](./.DS_Store)
 - [app.js](./app.js)
 - [index.html](./index.html)
+- [LICENSE](./LICENSE)
 - [package-lock.json](./package-lock.json)
 - [package.json](./package.json)
+- [README.md](./README.md)
 - **server/**
   - [server.js](./server/server.js)
 - **src/**
-  - [.DS_Store](./src/.DS_Store)
   - **data/**
     - [api.js](./src/data/api.js)
     - [auth.js](./src/data/auth.js)
     - [beehives.js](./src/data/beehives.js)
     - [util.js](./src/data/util.js)
   - **styles/**
-    - [.DS_Store](./src/styles/.DS_Store)
     - **css/**
       - [about-us.css](./src/styles/css/about-us.css)
       - [adopt-beehive.css](./src/styles/css/adopt-beehive.css)
@@ -103,20 +102,14 @@ george@abv.bg pass: 123456;
       - [responsive.css](./src/styles/css/responsive.css)
       - [styles.css](./src/styles/css/styles.css)
       - [typography.css](./src/styles/css/typography.css)
+    - **fonts/**
+      - [Butterfly.otf](./src/styles/fonts/Butterfly.otf)
+      - [Loveline.ttf](./src/styles/fonts/Loveline.ttf)
     - **images/**
       - (...)
   - **views/**
-    - [.DS_Store](./src/views/.DS_Store)
-    - **aboutUsView/**
-      - [aboutUs.js](./src/views/aboutUsView/aboutUs.js)
-    - **adoptBeehiveView/**
-      - [adoptBeehive.js](./src/views/adoptBeehiveView/adoptBeehive.js)
     - **adoptionFormView/**
       - [adoptionForm.js](./src/views/adoptionFormView/adoptionForm.js)
-    - **beesMatterView/**
-      - [beesMatter.js](./src/views/beesMatterView/beesMatter.js)
-    - **contactView/**
-      - [contact.js](./src/views/contactView/contact.js)
     - **editBeehiveView/**
       - [editBeehive.js](./src/views/editBeehiveView/editBeehive.js)
     - **homeView/**
@@ -127,10 +120,7 @@ george@abv.bg pass: 123456;
       - [login.js](./src/views/loginView/login.js)
     - **manageBeehiveView/**
       - [manageBeehive.js](./src/views/manageBeehiveView/manageBeehive.js)
-    - **myBeehiveView/**
-      - [myBeehive.js](./src/views/myBeehiveView/myBeehive.js)
-    - **ourHoneyView/**
-      - [ourHoney.js](./src/views/ourHoneyView/ourHoney.js)
+
 
 
 <div align="center">
@@ -138,6 +128,7 @@ george@abv.bg pass: 123456;
 ## 📷 Screenshots
 
 -----Mobile Version-----
+![Screenshot 0](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/7b9bd1f5-c01e-4a17-896d-b97430fc580e)
 
 ------------------------
 ![Screenshot 1](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/dcf52a47-6995-435e-a7b1-48ee33442117)
