@@ -128,6 +128,7 @@ george@abv.bg pass: 123456;
 ## 📷 Screenshots
 
 -----Mobile Version-----
+<br/>
 ![Screenshot 0](https://github.com/Vasillena/Bee-adoption-website/assets/114015792/7b9bd1f5-c01e-4a17-896d-b97430fc580e)
 
 ------------------------
