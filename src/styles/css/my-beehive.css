@@ -17,6 +17,7 @@
   display: flex;
   gap: 6em;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   text-align: center;
   animation: sliderReveal 1s ease forwards;

@@ -48,11 +48,22 @@
     padding: 1em 0;
   }
 
-  .login-logout-link,
+  /* .login-logout-link,
   .navbar-link {
     font-family: "Anton", sans-serif;
     font-size: 1.4em;
     letter-spacing: 0;
+  } */
+
+  .hero-image img {
+    height: 60vh;
+    margin-top: 5em;
+  }
+
+  .hero-section h1 {
+    font-size: 5em;
+    margin-top: -2.3em;
+    padding: 0 0.5em;
   }
 
   .footer-list {

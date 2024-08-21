@@ -1,0 +1,57 @@
+- app.js
+- index.html
+- LICENSE
+- package-lock.json
+- package.json
+- README.md
+- server
+  - server.js
+- src
+  - data
+    - api.js
+    - auth.js
+    - beehives.js
+    - util.js
+  - styles
+    - css
+      - about-us.css
+      - adopt-beehive.css
+      - adoption-form.css
+      - animations.css
+      - bees-matter.css
+      - contact.css
+      - layout.css
+      - login-register.css
+      - my-beehive.css
+      - our-honey.css
+      - reset.css
+      - responsive.css
+      - styles.css
+      - typography.css
+    - fonts
+      - Butterfly.otf
+      - Loveline.ttf
+    - images
+      - about-us.png
+      - adopt-beehive.png
+      - adopt-form.png
+      - beehive.svg
+      - contact.png
+      - divider-bee.svg
+      - hero-bee.png
+      - hex-2.svg
+      - hex.svg
+      - honey-jar.png
+  - views
+    - adoptionFormView
+      - adoptionForm.js
+    - editBeehiveView
+      - editBeehive.js
+    - homeView
+      - home.js
+    - layoutView
+      - layout.js
+    - loginView
+      - login.js
+    - manageBeehiveView
+      - manageBeehive.js
